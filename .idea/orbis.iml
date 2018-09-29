@@ -14,7 +14,7 @@
       <sourceFolder url="file://$MODULE_DIR$/PyCharm/Bots/Perpentine" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PyCharm/Libraries/LogParser" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.6 (week1)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.6 (orbis)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">
