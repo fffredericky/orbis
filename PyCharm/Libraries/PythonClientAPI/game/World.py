@@ -15,8 +15,8 @@ class World:
     :ivar FloodFiller fill: instance of FloodFiller class - access methods by calling world.fill...
     """
     def __init__(self, tiles, friendly_unit, enemy_units_map):
-        self.position_to_tile_map = {}
-        self.tiles = tiles
+        self.position_to_tile_map = {}  # dic of keys (x, y), value tile
+        self.tiles = tiles  # tiles[x][y] of 1, 0 or something else (1 is tile, 0 is wall)
         self.width = len(tiles)
         self.height = len(tiles[0])
         self.friendly_unit = friendly_unit
@@ -41,8 +41,13 @@ class World:
                         break
                 if neutral:
                     neutral_points.add((x, y))
+                    # if (x. y) is already a key in the dict, simply set it to neutral
                     if (x, y) in self.position_to_tile_map.keys():
+                        # position_to_tile_map is a dic of keys (x, y), values of some properties about (x, y)
                         self.position_to_tile_map[(x, y)].is_neutral = True
+                        # position_to_tile_map[(x, y)] is a tile
+                    # if (x, y) is not a key in the dict, create a new dict entry for it, using the values we
+                    # determined from the above loops/statements
                     else:
                         self.position_to_tile_map[(x, y)] = Tile(self, True, False, False, self.is_edge((x, y)), False, None, None, None, (x, y))
         return neutral_points

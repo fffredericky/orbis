@@ -13,6 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/PyCharm/Resources" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PyCharm/Bots/Perpentine" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PyCharm/Libraries/LogParser" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/venv1" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6 (orbis)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
