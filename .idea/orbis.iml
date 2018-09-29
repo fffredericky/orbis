@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/PyCharm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PyCharm/.idea" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PyCharm/Bots" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PyCharm/Libraries" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PyCharm/Logs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PyCharm/Maps" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PyCharm/MatchPresets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PyCharm/Resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PyCharm/Bots/Perpentine" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PyCharm/Libraries/LogParser" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.6 (week1)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
+  </component>
+</module>
