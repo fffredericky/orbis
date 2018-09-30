@@ -52,6 +52,7 @@ class World:
                         self.position_to_tile_map[(x, y)] = Tile(self, True, False, False, self.is_edge((x, y)), False, None, None, None, (x, y))
         return neutral_points
 
+    # set position_to_tile_map dic to cooriponding to tiles of tile list
     def _set_position_to_tile_map(self, tiles, friendly_unit, enemy_units_map):
         for x in range(len(tiles)):
             for y in range(len(tiles[0])):
