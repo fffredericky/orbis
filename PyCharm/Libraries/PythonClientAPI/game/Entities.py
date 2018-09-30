@@ -40,6 +40,7 @@ class Tile(Entity):
 
     def get_neighbours(self):
         modifiers = [(1, 0), (-1, 0), (0, 1), (0, -1)]
+        #Create a list of
         adjacent = [self.world.position_to_tile_map[(self.position[0] + m[0], self.position[1] + m[1])] for m in
                     modifiers if m in self.world.position_to_tile_map]
         adjacent = [t for t in adjacent if t]
